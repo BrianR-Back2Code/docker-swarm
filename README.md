@@ -9,7 +9,7 @@ docker swarm init
 ```
 
 ## Schritt 2: Erstelle einen Service
-- Starte einen einfachen Nginx-Webserver als Swarm-Service mit drei Replikaten:
+Starte einen einfachen Nginx-Webserver als Swarm-Service mit drei Replikaten:
 
 ```sh
 docker service create --name my-nginx --publish 8080:80 --replicas 3 nginx
