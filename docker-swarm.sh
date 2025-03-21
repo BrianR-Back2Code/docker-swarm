@@ -17,9 +17,15 @@ docker service ls
 echo "Laufende Container für my-nginx:"
 docker service ps my-nginx
 
+# Service überprüfen
+sleep 5 
+
 # Teste den Service
 echo "Teste den Service mit curl..."
 curl -I http://localhost:8080
+
+# Warten damit man den curl besser sieht
+sleep 5
 
 # Skaliere den Service auf 5 Replikate
 echo "Skaliere my-nginx auf 5 Replikate..."
