@@ -1,6 +1,10 @@
 # docker-swarm
 
-## Aufgabe: Starte einen Nginx-Webserver im Swarm Mode Schritt 1: Swarm initialisieren
+# Aufgabe wurde in den Schritten unten durchgeführt aber als bash-skript nochmal hinterlassen zum ausführen der gesamten Aufgabe.
+
+## Aufgabe: Starte einen Nginx-Webserver im Swarm Mode Schritt 
+
+1: Swarm initialisieren
 Starte einen Swarm-Manager
 
 ### Lokal
